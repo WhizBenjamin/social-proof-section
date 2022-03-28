@@ -1,10 +1,9 @@
 /*********TAG SELECTORS**********/
 body {
-    background-color: grey;
+    background-color: #baf5f5;
     font-family: "Spartan" (https://fonts.google.com/specimen/Spartan);
     font-weight: 400, 500, 700;
 }
-
 
 h1 {
     color: hsl(300, 43%, 22%);
@@ -14,12 +13,6 @@ h1 {
 h3 {
     color: white;
 }
-
-
-
-
-
-
 
 /*********CLASS SELECTORS**********/
 .first {
@@ -34,6 +27,39 @@ h3 {
     color: white;
 }
 
+.bg-pattern-top {
+    position: absolute;
+    left: 1px;
+    top: 0;
+  }
+
+.bg-pattern-bottom {
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+  }
+
+/*********FLEX STYLE SELECTORS**********/  
+
+.flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    height: 50px;
+    background-color: hsl(300, 24%, 96%);
+    margin: 10px;
+}
+
+.flex-container {
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    background-color: hsl(300, 43%, 22%);
+    margin: 10px;
+}
 
 
 
