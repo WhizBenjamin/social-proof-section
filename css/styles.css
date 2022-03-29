@@ -1,6 +1,6 @@
 /*********TAG SELECTORS**********/
 body {
-    background-color: #baf5f5;
+    background-color: white;
     font-family: "Spartan" (https://fonts.google.com/specimen/Spartan);
     font-weight: 400, 500, 700;
 }
@@ -49,16 +49,22 @@ h3 {
     height: 50px;
     background-color: hsl(300, 24%, 96%);
     margin: 10px;
+    border-radius: 15px;
 }
 
 .flex-container {
+    display: flex;
+}
+
+.item {
     display: flexbox;
     justify-content: space-between;
     align-items: center;
     width: 400px;
     height: 250px;
     background-color: hsl(300, 43%, 22%);
-    margin: 10px;
+    margin: 15px;
+    border-radius: 15px;
 }
 
 
