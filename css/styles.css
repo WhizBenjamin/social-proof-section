@@ -21,7 +21,11 @@ h3 {
 
 /*********CLASS SELECTORS**********/
 .first {
+    display: flex;
     color: hsl(300, 43%, 22%);
+    position: absolute;
+    left: 900px;
+    top: 160px;
 }
 
 .second {
@@ -68,6 +72,8 @@ h3 {
 
 .flex-container {
     display: flex;
+    position: absolute;
+    top: 450px;
 }
 
 .item {
