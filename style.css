@@ -1,0 +1,11 @@
+:root {
+  --light-grayish-color: hsl(300, 24%, 96%);
+  --dark-grayish-color: hsl(303, 10%, 53%);
+  --soft-pink-color: hsl(333, 80%, 67%);
+  --very-dark-color: hsl(300, 43%, 22%);
+}
+
+body {
+  margin: 0;
+  font-family: "Spartan", sans-serif;
+}
